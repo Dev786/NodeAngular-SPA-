@@ -1,0 +1,44 @@
+#mainWrapper {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #DF744A;
+}
+
+a {
+    font-family: sans-serif;
+}
+
+#menuWrapper {
+    width: 80%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    padding: 0px;
+    margin: 0px;
+    transform: translate(-50%, -50%);
+    position: relative;
+    opacity: 0.8;
+}
+
+#navbrand {
+    font-weight: bolder;
+    color: Black;
+}
+
+#header {
+    background-color: #8FD8D2;
+    text-align: center;
+    margin: 0px;
+}
+
+li {
+    font-weight: bolder;
+}
+
+#data{
+    background-color: #DFDCE3;
+    position: relative;
+}

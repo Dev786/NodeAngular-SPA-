@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="angular.min.js"></script>
+    <script src="angularRoute.js"></script>
+</head>
+
+<body ng-app="myApp">
+    <div id="mainWrapper" class="container">
+        <div class="container" id="menuWrapper">
+            <nav class="navbar navbar-default" id="header">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand" id="navbrand">AngularNode</a>
+                </div>
+                <ul class="nav navbar-nav" id="navbarID">
+                    <li><a href="#!/">All Content</a></li>
+                    <li><a href="#!/insert">Insert</a></li>
+                    <li><a href="#!/search">Search</a></li>
+                </ul>
+            </nav>
+            <div ng-view class="container-fluid" id="data"></div>
+        </div>
+    </div>
+
+    <script src="myAngular.js"></script>
+</body>
+
+</html>
